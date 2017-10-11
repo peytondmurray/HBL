@@ -115,13 +115,9 @@ def e3():
 	plt.title("({:2.2E}±{:2.2E}) + ({:2.2E}±{:2.2E})x + ({:2.2E}±{:2.2E})x**2".format(fitparams[0,0], np.sqrt(cov[0,0]), fitparams[1,0], np.sqrt(cov[1,1]), fitparams[2,0], np.sqrt(cov[2,2])))
 	plt.show()
 
-def e4():
-
-	
 
 if __name__ == "__main__":
 
 	# e1()
 	# e2()
 	# e3()
-	e4()
